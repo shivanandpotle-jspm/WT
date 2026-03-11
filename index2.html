@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>School Admission Form</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<h2>School Admission Form</h2>
+
+<form onsubmit="return validateForm()">
+
+<label>Student Name:</label><br>
+<input type="text" id="name"><br><br>
+
+<label>Email:</label><br>
+<input type="text" id="email"><br><br>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female<br><br>
+
+<label>Date of Birth:</label><br>
+<input type="date"><br><br>
+
+<label>Class:</label><br>
+<select>
+<option>1st</option>
+<option>2nd</option>
+<option>3rd</option>
+<option>4th</option>
+<option>5th</option>
+</select><br><br>
+
+<label>Address:</label><br>
+<textarea rows="3"></textarea><br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
